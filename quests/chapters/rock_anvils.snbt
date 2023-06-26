@@ -688,6 +688,7 @@
 			}]
 		}
 		{
+			title: "{gravitas.quest.caveman.rock_anvil}"
 			x: 11.5d
 			y: -0.5d
 			description: [
