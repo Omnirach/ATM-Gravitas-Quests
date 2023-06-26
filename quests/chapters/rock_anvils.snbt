@@ -1,0 +1,1023 @@
+{
+	id: "44544D44D2E68336"
+	group: "20028FE0986EEEC1"
+	order_index: 0
+	filename: "rock_anvils"
+	title: "{gravitas.chapters.1.title}"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{gravitas.quest.caveman.start_somewhere}"
+			x: 8.5d
+			y: 4.5d
+			description: ["{gravitas.quest.caveman.desc.start_somewhere}"]
+			dependencies: ["5BB844EEAB02F3EF"]
+			id: "6AF34FEE59AC7AEE"
+			tasks: [{
+				id: "3D655CF6EDEF807C"
+				type: "item"
+				title: "{gravitas.quest.caveman.logpile}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:log_pile_logs"
+					}
+				}
+				count: 8L
+				consume_items: false
+				match_nbt: false
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			description: ["{gravitas.quest.caveman.desc.pebbles}"]
+			hide_dependency_lines: false
+			id: "4705AC06819F2948"
+			tasks: [{
+				id: "235353A8DAB15832"
+				type: "item"
+				title: "{gravitas.quest.caveman.pebbles}"
+				icon: "tfc:rock/loose/granite"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:rock_knapping"
+					}
+				}
+				count: 8L
+				consume_items: false
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.stone_tools}"
+			x: 7.5d
+			y: 4.5d
+			description: ["{gravitas.quest.caveman.desc.stone_tools}"]
+			dependencies: [
+				"4705AC06819F2948"
+				"310044EE2C63F6EA"
+			]
+			id: "5BB844EEAB02F3EF"
+			tasks: [
+				{
+					id: "618913D0C78CBE62"
+					type: "item"
+					title: "{gravitas.quest.caveman.stone_hammer}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:hammers"
+						}
+					}
+				}
+				{
+					id: "53B0E7FCA78032D1"
+					type: "item"
+					title: "{gravitas.quest.caveman.stone_axe}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:axes"
+						}
+					}
+				}
+				{
+					id: "0DE46120D406B76A"
+					type: "item"
+					title: "{gravitas.quest.caveman.stone_knife}"
+					tags: ["tfcstone_tools"]
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:knives"
+						}
+					}
+					match_nbt: true
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.stick}"
+			x: 6.5d
+			y: 3.5d
+			description: ["{gravitas.quest.caveman.desc.stick}"]
+			id: "310044EE2C63F6EA"
+			tasks: [{
+				id: "2260F1085EF02ED5"
+				type: "item"
+				title: "{gravitas.quest.caveman.twig}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:twigs"
+					}
+				}
+				count: 16L
+				consume_items: false
+				only_from_crafting: false
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.raw_hide}"
+			x: 7.0d
+			y: -4.0d
+			description: [
+				"{gravitas.quest.caveman.desc.raw_hide.1}"
+				"{gravitas.quest.caveman.desc.raw_hide.2}"
+			]
+			id: "740BBC74BBF7F8C0"
+			tasks: [{
+				id: "0743625DA6AC4C1E"
+				type: "item"
+				title: "{gravitas.quest.caveman.any_raw_hide}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:raw_hides"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.soak}"
+			x: 8.0d
+			y: -4.0d
+			subtitle: "{gravitas.quest.caveman.limewater_hide}"
+			description: ["{gravitas.quest.caveman.desc.soak}"]
+			dependencies: [
+				"740BBC74BBF7F8C0"
+				"2213ABB8B1EA20B3"
+			]
+			id: "5F68AE5D75F886E6"
+			tasks: [{
+				id: "6AFB78B75B12D8D0"
+				type: "item"
+				title: "{gravitas.quest.caveman.soaked_hide}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:soaked_hides"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.squeegee}"
+			x: 9.0d
+			y: -4.0d
+			description: ["{gravitas.quest.caveman.desc.squeegee}"]
+			dependencies: ["5F68AE5D75F886E6"]
+			id: "59DF60A447898A21"
+			tasks: [{
+				id: "6F7AA30953950D35"
+				type: "item"
+				title: "{gravitas.quest.caveman.scraped_hide}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:scraped_hides"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.soak_2}"
+			x: 10.0d
+			y: -4.0d
+			description: ["{gravitas.quest.caveman.desc.soak_2}"]
+			dependencies: ["59DF60A447898A21"]
+			id: "56181503EA97CD5E"
+			tasks: [{
+				id: "067FDAC703346343"
+				type: "item"
+				title: "{gravitas.quest.caveman.prepared_hide}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:prepared_hides"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.leather}"
+			x: 11.0d
+			y: -4.0d
+			description: [
+				"{gravitas.quest.caveman.desc.leather.1}"
+				"{gravitas.quest.caveman.desc.leather.2}"
+			]
+			dependencies: ["56181503EA97CD5E"]
+			id: "7860C0D66B682A1F"
+			tasks: [{
+				id: "65575C5FAEAC9B7E"
+				type: "item"
+				title: "{gravitas.quest.caveman.any_leather}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:leather"
+					}
+				}
+				count: 8L
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.important_molds}"
+			x: 10.0d
+			y: 3.5d
+			description: ["{gravitas.quest.caveman.desc.important_molds}"]
+			dependencies: ["36E02BBA8C4B2CFB"]
+			id: "16AFF2128F4D2764"
+			tasks: [
+				{
+					id: "5208C31A688AEDCB"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_pickaxe_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "7981013FD83C7965"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_propick_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "3E6CCABCFE519E61"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_saw_blade_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "6588B398A4971C62"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_hammer_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "7AB02F64CBF46CF5"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_ingot_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "6BF2AFDC09091CAD"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_large_vessel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "3370C91BE3BDCF72"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_vessel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.small_copper}"
+			x: 8.5d
+			y: -0.5d
+			id: "70B253DE34134999"
+			tasks: [{
+				id: "24B5F08300E3DA74"
+				type: "item"
+				title: "Any #tfc:small_ore_pieces_copper"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:small_ore_pieces_copper"
+					}
+				}
+				count: 20L
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.fire}"
+			x: 10.5d
+			y: 2.5d
+			description: [
+				"{gravitas.quest.caveman.desc.fire.1}"
+				"{gravitas.quest.caveman.desc.fire.2}"
+			]
+			dependencies: [
+				"16AFF2128F4D2764"
+				"142C9FCE1C0C8C42"
+			]
+			id: "2C9D0ECAADFB615C"
+			tasks: [
+				{
+					id: "1944EB2509CCF65D"
+					type: "item"
+					title: "{gravitas.quest.caveman.firepit_logs}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:firepit_logs"
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "42EC443AB167DE05"
+					type: "item"
+					item: "tfc:straw"
+					count: 8L
+				}
+				{
+					id: "53EF37747A765EB9"
+					type: "item"
+					item: {
+						id: "tfc:firestarter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "0F20A58EAF986861"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_pickaxe_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "3362A666114573BD"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_propick_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "29B82F356F9B3C7C"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_hammer_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "7977D32F3DDA2048"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_saw_blade_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.early_metal_storage}"
+			x: 9.5d
+			y: 2.5d
+			description: ["{gravitas.quest.caveman.desc.early_metal_storage}"]
+			dependencies: ["16AFF2128F4D2764"]
+			id: "7BB2C0452907A865"
+			tasks: [
+				{
+					id: "7251EE334107D46E"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_vessel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "4E3B4D1E4FCE9420"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_large_vessel"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "26FA5FD903B36D2E"
+					type: "item"
+					title: "{gravitas.quest.caveman.pit_kiln_logs}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tfc:pit_kiln_logs"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "0936D6DC231B5E8E"
+					type: "item"
+					item: "tfc:straw"
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.copper_tool}"
+			x: 10.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"{gravitas.quest.caveman.desc.copper_tools.1}"
+				"{gravitas.quest.caveman.desc.copper_tools.2}"
+			]
+			dependencies: [
+				"70B253DE34134999"
+				"381FF80AB846589D"
+			]
+			id: "2F073E07D1A9533A"
+			tasks: [
+				{
+					id: "363E3C412B8CE9DD"
+					type: "item"
+					item: {
+						id: "tfc:metal/pickaxe_head/copper"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "427550B3FA7B86A1"
+					type: "item"
+					item: {
+						id: "tfc:metal/propick_head/copper"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.fired_mold}"
+			x: 10.0d
+			y: 1.5d
+			dependencies: [
+				"7BB2C0452907A865"
+				"2C9D0ECAADFB615C"
+			]
+			id: "381FF80AB846589D"
+			tasks: [
+				{
+					id: "74B78FCE661FECEA"
+					type: "item"
+					item: "tfc:ceramic/large_vessel"
+				}
+				{
+					id: "117731CFF49045AB"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/pickaxe_head_mold"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "4F7FA46C5104AE6F"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/propick_head_mold"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "43C33EABB054625C"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/ingot_mold"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "3227E9492688FE60"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/saw_blade_mold"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "239E000C0A7DAD67"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/vessel"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "7DC7DD8845C5B77C"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/hammer_head_mold"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.straw}"
+			x: 12.0d
+			y: 2.5d
+			id: "142C9FCE1C0C8C42"
+			tasks: [{
+				id: "3A8B47574C625C84"
+				type: "item"
+				item: "tfc:straw"
+				count: 32L
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			description: [
+				"{gravitas.quest.caveman.desc.copper_pick.1}"
+				"{gravitas.quest.caveman.desc.copper_pick.2}"
+			]
+			dependencies: ["2F073E07D1A9533A"]
+			id: "5B949C879D977B18"
+			tasks: [{
+				id: "33C36ACF058CD1AE"
+				type: "observation"
+				icon: "tfc:rock/anvil/diorite"
+				timer: 1L
+				observe_type: 1
+				to_observe: "tfc:rock_anvils"
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.saw_blade}"
+			x: 8.5d
+			y: 1.5d
+			description: ["{gravitas.quest.caveman.desc.saw_blade}"]
+			dependencies: ["381FF80AB846589D"]
+			id: "5AF3534F6A3F88F5"
+			tasks: [
+				{
+					id: "53B418479EB581FE"
+					type: "item"
+					item: {
+						id: "tfc:metal/saw_blade/copper"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "55824489CFE25258"
+					type: "item"
+					item: {
+						id: "tfc:metal/saw/copper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.lumber_jack}"
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["5AF3534F6A3F88F5"]
+			id: "56D132B96D044C49"
+			tasks: [{
+				id: "6287BE7962A46976"
+				type: "item"
+				title: "{gravitas.quest.caveman.lumber_16}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:lumber"
+					}
+				}
+				count: 16L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["{gravitas.quest.caveman.desc.work_bench}"]
+			dependencies: ["56D132B96D044C49"]
+			id: "173DED94F185C53E"
+			tasks: [{
+				id: "26996CB5BEE6EF21"
+				type: "item"
+				title: "{gravitas.quest.caveman.workbench}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:workbenches"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.crafting_table}"
+			x: 4.0d
+			y: 1.5d
+			description: ["{gravitas.quest.caveman.desc.crafting_table}"]
+			dependencies: ["173DED94F185C53E"]
+			optional: true
+			id: "74537365234D1BFF"
+			tasks: [{
+				id: "0E6B086B1E135E89"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			description: ["{gravitas.quest.caveman.desc.beehive_frame}"]
+			dependencies: ["56D132B96D044C49"]
+			id: "7BAF69BE9D91D31E"
+			tasks: [{
+				id: "0D2CE7FBBD3A836E"
+				type: "item"
+				item: {
+					id: "firmalife:beehive_frame"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			description: ["{gravitas.quest.caveman.desc.beehive}"]
+			dependencies: ["7BAF69BE9D91D31E"]
+			id: "3F19B7E75E82329B"
+			tasks: [{
+				id: "3E6F00508B7BBC68"
+				type: "item"
+				item: "firmalife:beehive"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			description: ["{gravitas.quest.caveman.desc.beeswax}"]
+			dependencies: ["3F19B7E75E82329B"]
+			id: "70E8D108838F5527"
+			tasks: [{
+				id: "7BBF4271488853A4"
+				type: "item"
+				item: "firmalife:beeswax"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["{gravitas.quest.caveman.desc.honey}"]
+			dependencies: ["3F19B7E75E82329B"]
+			id: "3B69EE76706A7EFD"
+			tasks: [
+				{
+					id: "16E1DE768D0DA67D"
+					type: "item"
+					item: "firmalife:raw_honey"
+				}
+				{
+					id: "716E78E014D1C659"
+					type: "item"
+					item: "firmalife:empty_jar"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: [
+				"{gravitas.quest.caveman.desc.treated_lumber.1}"
+				"{gravitas.quest.caveman.desc.treated_lumber.2}"
+			]
+			dependencies: ["70E8D108838F5527"]
+			id: "40CFA951439C59FB"
+			tasks: [{
+				id: "066A3AB04B62A00A"
+				type: "item"
+				item: "firmalife:treated_lumber"
+				count: 8L
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.clay}"
+			x: 10.0d
+			y: 4.5d
+			description: ["{gravitas.quest.caveman.desc.clay}"]
+			id: "36E02BBA8C4B2CFB"
+			tasks: [{
+				id: "3C36CBFAD94F17BF"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16L
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.useful_molds}"
+			x: 11.0d
+			y: 4.5d
+			description: ["{gravitas.quest.caveman.desc.useful_molds}"]
+			dependencies: ["36E02BBA8C4B2CFB"]
+			id: "2E52646F2C573D38"
+			tasks: [
+				{
+					id: "10C32BEB6A0ECA34"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_axe_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "4654A0C8126EC47C"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_shovel_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "42C24B82B38EABF1"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_hoe_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "45482892C745AAB2"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_knife_blade_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "67D3DBD448240588"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_bell_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "592D5FB0A0C51025"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_pot"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "48EF6E65B8EF7405"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_chisel_head_mold"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.caveman.big_barrel}"
+			x: 8.0d
+			y: -2.5d
+			description: ["{gravitas.quest.caveman.desc.big_barrel}"]
+			id: "2213ABB8B1EA20B3"
+			tasks: [{
+				id: "6FAC8B8082CCD145"
+				type: "item"
+				title: "{gravitas.quest.caveman.barrels}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:barrels"
+					}
+				}
+				count: 4L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

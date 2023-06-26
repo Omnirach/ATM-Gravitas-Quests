@@ -1,0 +1,350 @@
+{
+	id: "62B32ACC546D5B0B"
+	group: "20028FE0986EEEC1"
+	order_index: 2
+	filename: "more_anvils_but_bronze"
+	title: "{gravitas.chapters.3.title}"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -1.0d
+			dependencies: ["4EDF04AAD97993B0"]
+			id: "2E2AFC7444190195"
+			tasks: [{
+				id: "5AD339410D9B02E8"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/bismuth_bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["4EDF04AAD97993B0"]
+			id: "775412D21A5B842C"
+			tasks: [{
+				id: "2E6E9B1AB3D622BC"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/black_bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: [
+				"{gravitas.quest.bronze.desc.bronze.1}"
+				"{gravitas.quest.bronze.desc.bronze.2}"
+			]
+			dependencies: ["4EDF04AAD97993B0"]
+			id: "67698EC82152C2AE"
+			tasks: [{
+				id: "37E41E5951E61500"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["2E2AFC7444190195"]
+			id: "3A7F51C68201F05C"
+			tasks: [{
+				id: "6E32E59D3B18E8CE"
+				type: "item"
+				item: {
+					id: "tfc:metal/double_ingot/bismuth_bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["775412D21A5B842C"]
+			id: "7A39BB7CB3F07B91"
+			tasks: [{
+				id: "179501F993603EAD"
+				type: "item"
+				item: {
+					id: "tfc:metal/double_ingot/black_bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["67698EC82152C2AE"]
+			id: "5A4581758FADC056"
+			tasks: [{
+				id: "47704A22FF4A09DE"
+				type: "item"
+				item: {
+					id: "tfc:metal/double_ingot/bronze"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["{gravitas.quest.bronze.desc.bronze_anvil}"]
+			dependencies: [
+				"3A7F51C68201F05C"
+				"7A39BB7CB3F07B91"
+				"5A4581758FADC056"
+			]
+			dependency_requirement: "one_completed"
+			id: "606A5B99436B903D"
+			tasks: [{
+				id: "0581704709D8004C"
+				type: "item"
+				title: "{gravitas.quest.bronze.bronze_anvil}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:bronze_anvils"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["{gravitas.quest.bronze.desc.fire_clay}"]
+			hide_dependency_lines: false
+			dependencies: ["71F6A2F4C45744B0"]
+			id: "78983DD9E6C2B563"
+			tasks: [{
+				id: "40ADEDF24BC4E06F"
+				type: "item"
+				item: "tfc:fire_clay"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: [
+				"{gravitas.quest.bronze.desc.kaolinite}"
+				"{gravitas.quest.bronze.desc.graphite}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2F073E07D1A9533A"]
+			hide: true
+			id: "205764F4494805D4"
+			tasks: [
+				{
+					id: "16DC89DEBBC80315"
+					type: "item"
+					item: "tfc:ore/graphite"
+					count: 16L
+				}
+				{
+					id: "6A5023EEAF27C7AF"
+					type: "item"
+					item: "tfc:ore/kaolinite"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["{gravitas.quest.bronze.desc.quern}"]
+			dependencies: [
+				"205764F4494805D4"
+				"67CC0E5D923049A4"
+			]
+			id: "71F6A2F4C45744B0"
+			tasks: [
+				{
+					id: "21BA719A6D59487A"
+					type: "item"
+					item: {
+						id: "tfc:handstone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4D1E84E66087A54E"
+					type: "item"
+					item: "tfc:quern"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			description: ["{gravitas.quest.bronze.desc.smooth_stone}"]
+			dependencies: ["2E52646F2C573D38"]
+			id: "67CC0E5D923049A4"
+			tasks: [
+				{
+					id: "3E2FCA8793975750"
+					type: "item"
+					item: {
+						id: "tfc:metal/chisel/copper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "5A01DC88CC68BD58"
+					type: "item"
+					item: {
+						id: "tfc:metal/chisel_head/copper"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			description: ["{gravitas.quest.bronze.desc.fire_brick}"]
+			dependencies: ["78983DD9E6C2B563"]
+			id: "7555827702D1810C"
+			tasks: [
+				{
+					id: "319CB69AE3F0B4BF"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_fire_brick"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+				{
+					id: "44CB1F3997B11F49"
+					type: "item"
+					item: "tfc:ceramic/fire_brick"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "{gravitas.quest.bronze.crucible}"
+			description: [
+				"{gravitas.quest.bronze.desc.crucible.1}"
+				"{gravitas.quest.bronze.desc.crucible.2}"
+			]
+			id: "5F6EB92B9F90DDCC"
+			tasks: [
+				{
+					id: "152DBABA4738DC12"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_crucible"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "2E1A5D2B0F6F756C"
+					type: "item"
+					item: "tfc:crucible"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["{gravitas.quest.bronze.desc.cogwheel}"]
+			id: "2D25E53FA7D3BD5B"
+			tasks: [{
+				id: "475C1B3CF913E559"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			description: ["{gravitas.quest.bronze.desc.water_wheel}"]
+			id: "5C152541C2D4F514"
+			tasks: [{
+				id: "505F89D30A514BE5"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
