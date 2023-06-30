@@ -346,6 +346,7 @@
 			icon: "create:andesite_alloy"
 			x: -3.5d
 			y: -1.5d
+			description: ["{gravitas.quest.bronze.desc.zinc_alloy}"]
 			id: "35CBA8F8B07B6F2A"
 			tasks: [
 				{
@@ -384,6 +385,10 @@
 		{
 			x: -2.5d
 			y: -3.0d
+			description: [
+				"{gravitas.quest.bronze.desc.shaft.1}"
+				"{gravitas.quest.bronze.desc.shaft.2}"
+			]
 			dependencies: ["35CBA8F8B07B6F2A"]
 			id: "6E9205F502E6184F"
 			tasks: [{
@@ -395,6 +400,7 @@
 		{
 			x: -4.5d
 			y: -4.5d
+			description: ["{gravitas.quest.bronze.desc.millstone}"]
 			dependencies: [
 				"614F7BF7488AC58C"
 				"7837C5366C24D4CF"
@@ -409,6 +415,7 @@
 		{
 			x: -4.5d
 			y: -3.0d
+			description: ["{gravitas.quest.bronze.desc.casing}"]
 			dependencies: ["35CBA8F8B07B6F2A"]
 			id: "7837C5366C24D4CF"
 			tasks: [{
@@ -430,17 +437,6 @@
 				id: "7C322EC71BD4E8A4"
 				type: "item"
 				item: "framedcompactdrawers:framed_full_four"
-			}]
-		}
-		{
-			x: -6.0d
-			y: -3.0d
-			dependencies: ["7837C5366C24D4CF"]
-			id: "26A3D34310EBB388"
-			tasks: [{
-				id: "766B0207F30AB98B"
-				type: "item"
-				item: "create:depot"
 			}]
 		}
 	]

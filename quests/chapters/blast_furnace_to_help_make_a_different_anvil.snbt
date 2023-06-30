@@ -15,7 +15,10 @@
 				"{gravitas.quest.steel.desc.blast_furnace.1}"
 				"{gravitas.quest.steel.desc.blast_furnace.2}"
 			]
-			dependencies: ["2227EA4328622F97"]
+			dependencies: [
+				"2227EA4328622F97"
+				"5862FB3D01494F5C"
+			]
 			id: "7A77905EB8350098"
 			tasks: [
 				{
@@ -138,17 +141,26 @@
 		{
 			x: 3.5d
 			y: 0.0d
+			description: ["{gravitas.quest.steel.desc.press}"]
 			dependencies: ["2227EA4328622F97"]
 			id: "6FD65AD7EC4053EA"
-			tasks: [{
-				id: "191278F77CB5444D"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
+			tasks: [
+				{
+					id: "191278F77CB5444D"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "5F4B4E459111F710"
+					type: "item"
+					item: "create:depot"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 1.5d
+			description: ["{gravitas.quest.steel.desc.rolling}"]
 			dependencies: ["3B5AC1088E738401"]
 			id: "62576168F3827DFB"
 			tasks: [{
@@ -172,6 +184,10 @@
 			title: "{gravitas.quest.steel.automate_create}"
 			x: 5.0d
 			y: 0.0d
+			description: [
+				"{gravitas.quest.steel.desc.automate_create.1}"
+				"{gravitas.quest.steel.desc.automate_create.2}"
+			]
 			dependencies: ["2227EA4328622F97"]
 			id: "3276777A888B958D"
 			tasks: [
@@ -332,6 +348,21 @@
 				type: "item"
 				item: "immersiveengineering:blastbrick"
 				count: 27L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: [
+				"{gravitas.quest.steel.desc.fan.1}"
+				"{gravitas.quest.steel.desc.fan.1}"
+			]
+			dependencies: ["3B5AC1088E738401"]
+			id: "51573373C3B8B94C"
+			tasks: [{
+				id: "6749CC9804BCAAE9"
+				type: "item"
+				item: "create:encased_fan"
 			}]
 		}
 	]
