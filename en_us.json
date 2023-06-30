@@ -57,6 +57,7 @@
 
     "gravitas.quest.bronze.bronze_anvil": "Bronze Anvil",
     "gravitas.quest.bronze.crucible": "Mixing It Up",
+    "gravitas.quest.bronze.zinc_alloy": "Let's get CREATEive",
 
 
     "gravitas.quest.iron.brick": "Any Brick",
@@ -67,13 +68,13 @@
     "gravitas.quest.steel.blast_furnace": "Blast Furnace",
     "gravitas.quest.steel.steel": "Creating Steel",
     "gravitas.quest.steel.early_create": "Early Create",
+    "gravitas.quest.steel.blueprints": "Blueprints",
+    "gravitas.quest.steel.engineers_tools": "Engineer's Tools",
+    "gravitas.quest.steel.automate_create": "Automating Create Machinery",
 
 
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",
-    "gravitas.quest.blacksteel.engineers_tools": "Engineer's Tools",
 
-
-    "gravitas.quest.moon.blueprints": "Blueprints",
 
 
     "gravitas.quest.caveman.desc.start_somewhere": "Now armed with tools, the first thing you can do is go and collect logs from trees.",
@@ -112,6 +113,7 @@
 
     "gravitas.quest.copper.desc.flux.1": "You can get flux by crushing certain loose stones in your crafting grid with a hammer.",
     "gravitas.quest.copper.desc.flux.2": "These rocks are &3Dolomite, &3Marble, &3Limestone and &3Chalk.",
+    "gravitas.quest.copper.desc.ingot": "You'll need some ingot molds to make ingots, make them the same way you did your other molds, but you can fire them in the forge.",
     "gravitas.quest.copper.desc.copper_double": "You can make double copper ingots by heating copper ingots to bright red, then putting them on your stone anvil with flux and shift right clicking the anvil.",
     "gravitas.quest.copper.desc.anvil.1": "Make an anvil with those double ingots, and then you can start working your own tools rather than casting them.",
     "gravitas.quest.copper.desc.anvil.2": "Worked tools have greater durability depending on how well you work them.",
@@ -134,6 +136,8 @@
     "gravitas.quest.bronze.desc.crucible.2": "The crucible must be placed below a blast furnace or above a charcoal furnace.",
     "gravitas.quest.bronze.desc.water_wheel": "The water wheel is one of the more simple ways of producing the energy needed to spin the cogs and machines.",
     "gravitas.quest.bronze.desc.cogwheel": "The most basic item in Create. This allows you to move kinetic energy between create blocks.",
+    "gravitas.quest.bronze.desc.drawers.1": "Drawers are a great way to store large quantities of a single item, or upto 4 different items, in a single block space.",
+    "gravitas.quest.bronze.desc.drawers.2": "A good use of the 2x2 drawers is storing your metal ores. Small, Poor, Normal, and Rich ore, all in one block.",
 
 
     "gravitas.quest.iron.desc.mortar.1": "you get mortar by putting sand in a barrel full of limewater.",
@@ -149,16 +153,18 @@
     "gravitas.quest.steel.desc.early_create.1": "You need these 2 things to make plates and smelt aluminium dust, which you get from crushing cryolite with an engineers hammer.",
     "gravitas.quest.steel.desc.early_create.2": "You then place a bucket of lava in front of the fan with a slab that cant burn and a block behind.",
     "gravitas.quest.steel.desc.steel_anvil": "Using the same procedure as the previous anvils you need to make a steel anvil next.",
+    "gravitas.quest.steel.desc.blast_brick": "You can find magma blocks in the Nether, or if you don't (and you shouldn't) want to wait that long, just find a volcano and there'll be some there. You only need 9 for 1 Blast Furnace",
 
 
     "gravitas.quest.blacksteel.desc.weak_blue": "Weak blue steel is made by alloying &3Bismuth Bronze, Black Steel, Sterling Silver, Steel.",
     "gravitas.quest.blacksteel.desc.weak_red": "Weak red Steel is made by alloying &3Black Steel, Brass, Rose Gold and Steel.",
     "gravitas.quest.blacksteel.desc.bucket": "This is the main goal of progressing through TFC. This will allow you to start moving the creosote around to make treated wood.",
-    "gravitas.quest.blacksteel.desc.blast_brick": "Once you have been to the Nether you should have grabbed some Magma blocks for the Immersive Engineering blast furnace. You only need 9 for 1 Blast Furnace",
     "gravitas.quest.blacksteel.desc.obsidian": "Using a red or blue steel pickaxe you can mine obsidian to make a nether portal.",
     "gravitas.quest.blacksteel.desc.going_deeper": "Using some spare steel and a flint you can make a flint and steel or you can use a firestarter.",
     "gravitas.quest.blacksteel.desc.high_blue": "combining the Weak Blue steel with Black Steel and Flux in an anvil will allow you to make High Carbon Blue Steel.",
     "gravitas.quest.blacksteel.desc.high_red": "Combining Weak Red Steel with Black Steel and Flux will create High Carbon Red Steel.",
+    "gravitas.quest.blacksteel.desc.red_bucket": "This bucket can be used to move source blocks of water. Now you can pick up and move water.",
+    "gravitas.quest.blacksteel.desc.blue_bucket": "This bucket can be used to move lava. It's the only way to move lava, so if you want lava at your base, make this bucket.",
 
 
     "gravitas.quest.moon.desc.silicon_press": "Search around on the Moon for the Presses. It will also be worth picking up a bunch of skystone while getting the presses.",
