@@ -10,6 +10,10 @@
 		{
 			x: 5.0d
 			y: -1.0d
+			dependencies: [
+				"7C814B7542057941"
+				"2378E492C0EA778B"
+			]
 			id: "58B741AD2C5B5ABF"
 			tasks: [
 				{
@@ -35,7 +39,7 @@
 		{
 			title: "{gravitas.quest.iron.mortar}"
 			x: 4.0d
-			y: -3.0d
+			y: -2.0d
 			description: [
 				"{gravitas.quest.iron.desc.mortar.1}"
 				"{gravitas.quest.iron.desc.mortar.2}"
@@ -70,6 +74,7 @@
 				"{gravitas.quest.iron.desc.wrought_iron.1}"
 				"{gravitas.quest.iron.desc.wrought_iron.2}"
 			]
+			dependencies: ["58B741AD2C5B5ABF"]
 			id: "698110FC264CA642"
 			tasks: [
 				{
@@ -120,6 +125,7 @@
 			x: 6.5d
 			y: 0.0d
 			description: ["{gravitas.quest.iron.desc.iron_anvil}"]
+			dependencies: ["698110FC264CA642"]
 			id: "2227EA4328622F97"
 			tasks: [{
 				id: "5DEABA8C3C7372B3"

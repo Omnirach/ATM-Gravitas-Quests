@@ -15,6 +15,7 @@
 				"{gravitas.quest.steel.desc.blast_furnace.1}"
 				"{gravitas.quest.steel.desc.blast_furnace.2}"
 			]
+			dependencies: ["2227EA4328622F97"]
 			id: "7A77905EB8350098"
 			tasks: [
 				{
@@ -65,7 +66,7 @@
 		{
 			title: "{gravitas.quest.steel.steel}"
 			x: 2.0d
-			y: 1.0d
+			y: 1.5d
 			dependencies: ["7A77905EB8350098"]
 			id: "19C25C233BCCF44C"
 			tasks: [
@@ -115,7 +116,7 @@
 		}
 		{
 			x: 2.0d
-			y: 2.0d
+			y: 3.0d
 			description: ["{gravitas.quest.steel.desc.steel_anvil}"]
 			dependencies: ["19C25C233BCCF44C"]
 			id: "568F95FC508BA84A"
@@ -135,26 +136,203 @@
 			}]
 		}
 		{
-			title: "{gravitas.quest.steel.early_create}"
-			x: 5.5d
-			y: -1.5d
-			description: [
-				"{gravitas.quest.steel.desc.early_create.1}"
-				"{gravitas.quest.steel.desc.early_create.2}"
-			]
-			id: "39FEE3418D86CFB9"
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["2227EA4328622F97"]
+			id: "6FD65AD7EC4053EA"
+			tasks: [{
+				id: "191278F77CB5444D"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["3B5AC1088E738401"]
+			id: "62576168F3827DFB"
+			tasks: [{
+				id: "225FF01BEAA0C926"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["6FD65AD7EC4053EA"]
+			id: "3B5AC1088E738401"
+			tasks: [{
+				id: "4256A948E9A5BDDF"
+				type: "item"
+				item: "immersiveengineering:plate_iron"
+			}]
+		}
+		{
+			title: "{gravitas.quest.steel.automate_create}"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["2227EA4328622F97"]
+			id: "3276777A888B958D"
 			tasks: [
 				{
-					id: "4A504CC7DF30FB7A"
+					id: "76A81F53AA16C28B"
 					type: "item"
-					item: "create:encased_fan"
+					item: {
+						id: "tfc:metal/rod/wrought_iron"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
 				}
 				{
-					id: "3835C7D033329EF1"
+					id: "52730C476974BCFF"
 					type: "item"
-					item: "create:mechanical_press"
+					item: "create:belt_connector"
+				}
+				{
+					id: "50ABDFF0A5955B49"
+					type: "item"
+					item: "create:andesite_funnel"
 				}
 			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			id: "7503CFC31F970927"
+			tasks: [{
+				id: "21A2A42B370CCC98"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "5DD8A4A919AF644C"
+			tasks: [{
+				id: "023D3F70F9EAD415"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+		}
+		{
+			title: "{gravitas.quest.steel.blueprints}"
+			x: 2.0d
+			y: 4.5d
+			id: "2D871E3A9A87DAC0"
+			tasks: [
+				{
+					id: "57F918136F31687B"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "5665CF88032607C0"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+				{
+					id: "191F9765CEA38DCB"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			id: "2F917443D6FE3081"
+			tasks: [{
+				id: "417E47D6C3A4DDBF"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8L
+			}]
+		}
+		{
+			title: "{gravitas.quest.steel.engineers_tools}"
+			x: 6.0d
+			y: 4.5d
+			id: "4170701E508D58B5"
+			tasks: [
+				{
+					id: "1B4B95CC48B88CA0"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A861E5E22EF9766"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2EB2B34F41B4C17D"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			hide_dependency_lines: false
+			dependencies: ["4170701E508D58B5"]
+			id: "679D7B1E110BE18E"
+			tasks: [{
+				id: "4D221A36C8F952DF"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.5d
+			description: ["{gravitas.quest.steel.desc.blast_brick}"]
+			dependencies: ["679D7B1E110BE18E"]
+			id: "584E1EADFF9DB1FC"
+			tasks: [{
+				id: "371BDAFC059C182F"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
 		}
 	]
 	quest_links: [ ]
