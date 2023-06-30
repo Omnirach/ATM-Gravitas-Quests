@@ -15,7 +15,6 @@
 				"{gravitas.quest.steel.desc.blast_furnace.1}"
 				"{gravitas.quest.steel.desc.blast_furnace.2}"
 			]
-			dependencies: ["1A99EF05065B3689"]
 			id: "7A77905EB8350098"
 			tasks: [
 				{
