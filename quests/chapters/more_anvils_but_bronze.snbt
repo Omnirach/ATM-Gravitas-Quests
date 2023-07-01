@@ -223,39 +223,18 @@
 			y: -1.5d
 			description: ["{gravitas.quest.bronze.desc.smooth_stone}"]
 			id: "42663B306993A03C"
-			tasks: [
-				{
-					id: "351CCA1E4B8410C2"
-					type: "item"
-					item: {
-						id: "tfc:metal/chisel/copper"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
+			tasks: [{
+				id: "351CCA1E4B8410C2"
+				type: "item"
+				title: "Any #tfc:chisels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:chisels"
 					}
 				}
-				{
-					id: "14D97DAFDF87514A"
-					type: "item"
-					item: {
-						id: "tfc:metal/chisel_head/copper"
-						Count: 1b
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			x: -3.5d

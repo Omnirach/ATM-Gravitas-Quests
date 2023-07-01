@@ -9,7 +9,7 @@
 	quests: [
 		{
 			x: 1.5d
-			y: 3.0d
+			y: 0.0d
 			description: ["{gravitas.quest.moon.desc.silicon_press}"]
 			id: "2A2A3F949126C284"
 			tasks: [
@@ -37,7 +37,7 @@
 		}
 		{
 			x: 0.0d
-			y: 3.0d
+			y: 0.0d
 			description: ["{gravitas.quest.moon.desc.fluix_crystal}"]
 			id: "3559C441679F94D4"
 			tasks: [{

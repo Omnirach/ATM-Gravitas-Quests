@@ -71,6 +71,8 @@
     "gravitas.quest.steel.blueprints": "Blueprints",
     "gravitas.quest.steel.engineers_tools": "Engineer's Tools",
     "gravitas.quest.steel.automate_create": "Automating Create Machinery",
+    "gravitas.quest.steel.kelp": "Kelp me out",
+    "gravitas.quest.steel.funnel": "A better funnel.",
 
 
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",
@@ -148,7 +150,7 @@
 
     "gravitas.quest.iron.desc.mortar.1": "You get mortar by putting sand in a barrel full of limewater.",
     "gravitas.quest.iron.desc.mortar.2": "Limewater can be obtained by right clicking a barrel of water with flux.",
-    "gravitas.quest.iron.desc.cutting": "Simply by crafting a rock and a file together, you can turn the round stones into a brick.",
+    "gravitas.quest.iron.desc.cutting": "Simply by crafting a rock and a chisel together, you can turn the round stones into a brick.",
     "gravitas.quest.iron.desc.wrought_iron.1": "Wrought iron is acquired by hammering raw iron blooms into refined iron blooms and then into wrought iron.",
     "gravitas.quest.iron.desc.wrought_iron.2": "&3You will need a lot of iron, so make sure you get enough for an anvil.",
     "gravitas.quest.iron.desc.iron_anvil": "The iron anvil is made the same way as copper and bronze anvils. You WILL need this.",
@@ -160,13 +162,15 @@
     "gravitas.quest.steel.desc.early_create.2": "You then place a bucket of lava in front of the fan with a slab that cant burn and a block behind.",
     "gravitas.quest.steel.desc.steel_anvil": "Using the same procedure as the previous anvils you need to make a steel anvil next.",
     "gravitas.quest.steel.desc.blast_brick": "You can find magma blocks in the Nether, or if you don't (and you shouldn't) want to wait that long, just find a volcano and there'll be some there. You only need 9 for 1 Blast Furnace",
-    "gravitas.quest.steel.desc.automate_create.1": "Now that you've made some basic Create machines, you can automate things.",
-    "gravitas.quest.steel.desc.automate_create.2": "One good thing to automate is Raw Iron Blooms to Wrought Iron ingots. All you'll need is a couple of mechanical presses, a couple of depots, some belts, funnels and a way to power it all.",
+    "gravitas.quest.steel.desc.kelp": "Kelp is needed for making a few of the Create items, including Belts and Funnels, which you will need for automating things",
+    "gravitas.quest.steel.desc.automate_create.1": "Now that you've made some basic Create machines, you can automate things. One good thing to automate is Raw Iron Blooms to Wrought Iron ingots.",
+    "gravitas.quest.steel.desc.automate_create.2": "You can automate this using presses, belt, funnels and depots. It might be difficult getting the speed right, until you have a better funnel.",
     "gravitas.quest.steel.desc.press": "Have you noticed that some items need a plate rather than a sheet? Well, for that you'll need a mechanical press. Oh, and a depot, this thing won't work without a depot under it.",
     "gravitas.quest.steel.desc.iron_plate": "Use that mechanical press to make an Iron plate. Not sure how to set it up? Hover over the mechanical press in your inventory and hold 'w' to ponder the machinery. Isn't create great?",
     "gravitas.quest.steel.desc.rolling": "The Rolling Mill makes making rods and wire a lot less hammery by taking the hammer and anvil out of the equation.",
     "gravitas.quest.steel.desc.fan.1": "The next step after Create is Immersive Engineering, but before we get there we'll need some Aluminium. To make Aluminium you'll need to crush some Cryolite with an Engineer's Hammer to get the Grit, then blast it with a fan and some lava.",
     "gravitas.quest.steel.desc.fan.2": "Wait, we can't move lava yet. &6Damn, guess that might have to wait! Unless you can make a quick blasting setup at a volcano...",
+    "gravitas.quest.steel.desc.funnel": "Speaking of a better funnel. For this, you'll need an electron tube. There's two options here, one of them makes more than the other, but you'll need to do some Immersive Engineering for that.",
 
 
 

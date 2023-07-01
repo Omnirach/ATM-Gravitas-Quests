@@ -185,7 +185,7 @@
 		{
 			x: 3.5d
 			y: 3.5d
-			description: ["gravitas.quest.blacksteel.desc.red_bucket"]
+			description: ["{gravitas.quest.blacksteel.desc.red_bucket}"]
 			dependencies: ["01711092E2004315"]
 			id: "7655E45A37759CAB"
 			tasks: [{

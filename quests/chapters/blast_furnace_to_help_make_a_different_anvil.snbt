@@ -188,7 +188,10 @@
 				"{gravitas.quest.steel.desc.automate_create.1}"
 				"{gravitas.quest.steel.desc.automate_create.2}"
 			]
-			dependencies: ["2227EA4328622F97"]
+			dependencies: [
+				"2227EA4328622F97"
+				"6DA0C8E1B5EAF7EE"
+			]
 			id: "3276777A888B958D"
 			tasks: [
 				{
@@ -355,7 +358,7 @@
 			y: 3.0d
 			description: [
 				"{gravitas.quest.steel.desc.fan.1}"
-				"{gravitas.quest.steel.desc.fan.1}"
+				"{gravitas.quest.steel.desc.fan.2}"
 			]
 			dependencies: ["3B5AC1088E738401"]
 			id: "51573373C3B8B94C"
@@ -364,6 +367,54 @@
 				type: "item"
 				item: "create:encased_fan"
 			}]
+		}
+		{
+			title: "{gravitas.quest.steel.kelp}"
+			x: 5.0d
+			y: -1.5d
+			description: ["{gravitas.quest.steel.desc.kelp}"]
+			id: "6DA0C8E1B5EAF7EE"
+			tasks: [{
+				id: "117EA80A47637FFD"
+				type: "item"
+				title: "Any #forge:kelp"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:kelp"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.steel.funnel}"
+			x: 6.5d
+			y: 0.0d
+			description: ["{gravitas.quest.steel.desc.funnel}"]
+			hide_dependency_lines: true
+			dependencies: ["3276777A888B958D"]
+			dependency_requirement: "one_started"
+			id: "2D382A55BD30B6A4"
+			tasks: [
+				{
+					id: "07ABA221C4DFF0AF"
+					type: "item"
+					title: "Any #forge:electron_tube"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:electron_tube"
+						}
+					}
+				}
+				{
+					id: "53E2010593D2029D"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+			]
 		}
 	]
 	quest_links: [ ]

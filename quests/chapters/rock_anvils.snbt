@@ -527,39 +527,18 @@
 			description: ["{gravitas.quest.caveman.desc.saw_blade}"]
 			dependencies: ["4187F26BEEE6B0E4"]
 			id: "70D78EF128C722A1"
-			tasks: [
-				{
-					id: "267A0FCD1D049747"
-					type: "item"
-					item: {
-						id: "tfc:metal/saw_blade/copper"
-						Count: 1b
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
+			tasks: [{
+				id: "13BC7D6A62F1E4FA"
+				type: "item"
+				title: "Any #tfc:saws"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:saws"
 					}
 				}
-				{
-					id: "13BC7D6A62F1E4FA"
-					type: "item"
-					item: {
-						id: "tfc:metal/saw/copper"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"tfc:item_heat": {
-								heat: 0.0f
-								ticks: 0L
-							}
-						}
-					}
-				}
-			]
+			}]
 		}
 		{
 			title: "{gravitas.quest.caveman.lumber_jack}"
