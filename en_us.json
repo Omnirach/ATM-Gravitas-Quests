@@ -72,7 +72,8 @@
     "gravitas.quest.steel.engineers_tools": "Engineer's Tools",
     "gravitas.quest.steel.automate_create": "Automating Create Machinery",
     "gravitas.quest.steel.kelp": "Kelp me out",
-    "gravitas.quest.steel.funnel": "A better funnel.",
+    "gravitas.quest.steel.funnel": "A better funnel",
+    "gravitas.quest.steel.paper_making": "Paper making",
 
 
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",
@@ -171,7 +172,13 @@
     "gravitas.quest.steel.desc.fan.1": "The next step after Create is Immersive Engineering, but before we get there we'll need some Aluminium. To make Aluminium you'll need to crush some Cryolite with an Engineer's Hammer to get the Grit, then blast it with a fan and some lava.",
     "gravitas.quest.steel.desc.fan.2": "Wait, we can't move lava yet. &6Damn, guess that might have to wait! Unless you can make a quick blasting setup at a volcano...",
     "gravitas.quest.steel.desc.funnel": "Speaking of a better funnel. For this, you'll need an electron tube. There's two options here, one of them makes more than the other, but you'll need to do some Immersive Engineering for that.",
-
+    "gravitas.quest.steel.desc.paper_making.1": "You'll need some paper to really get into Immersive Engineering, you can't make blueprints without paper. You also can't make books without paper, and having the IE manual is real useful.",
+    "gravitas.quest.steel.desc.paper_making.2": "There's a couple of ways to make paper, either find some papyrus, or make a saw and use sawdust.",
+    "gravitas.quest.steel.desc.papyrus.1": "If you're lucky enough to find papyrus in the wild, or trade with a villager for it, then you can make paper by following a few steps.",
+    "gravitas.quest.steel.desc.papyrus.2": "First, take one piece of papyrus and combine it with a knife. Next, you'll want to soak those strips in water for about 8 hours. Take those soaked papyrus strips and weave 'em on a loom. Lastly, like with Leather, put that unrefined paper on a log and scrape it to obtain your paper.",
+    "gravitas.quest.steel.desc.saw.1": "You can use a saw to increase the output of your logs, and as a bonus you'll get sawdust which has a multitude of uses.",
+    "gravitas.quest.steel.desc.saw.2": "If you combine 4 sawdust with a bucket of water, you'll get two paper. You can also make... not much else currently...",
+    "gravitas.quest.steel.desc.paper": "Now that you have paper, you can make things like books, and blueprints, and... uhh... sandpaper? Clipboards? Maps? There's lots you can do with paper.",
 
 
     "gravitas.quest.blacksteel.desc.weak_blue": "Weak blue steel is made by alloying &3Bismuth Bronze, Black Steel, Sterling Silver, Steel.",

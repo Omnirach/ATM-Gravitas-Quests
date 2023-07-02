@@ -221,8 +221,9 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 4.5d
+			x: 5.0d
+			y: 7.5d
+			dependencies: ["2F917443D6FE3081"]
 			id: "7503CFC31F970927"
 			tasks: [{
 				id: "21A2A42B370CCC98"
@@ -231,8 +232,9 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 5.0d
+			y: 9.0d
+			dependencies: ["7503CFC31F970927"]
 			id: "5DD8A4A919AF644C"
 			tasks: [{
 				id: "023D3F70F9EAD415"
@@ -242,8 +244,9 @@
 		}
 		{
 			title: "{gravitas.quest.steel.blueprints}"
-			x: 2.0d
-			y: 4.5d
+			x: 2.5d
+			y: 9.0d
+			dependencies: ["7EC4991C351C49AC"]
 			id: "2D871E3A9A87DAC0"
 			tasks: [
 				{
@@ -283,7 +286,7 @@
 		}
 		{
 			x: 5.0d
-			y: 4.5d
+			y: 6.0d
 			id: "2F917443D6FE3081"
 			tasks: [{
 				id: "417E47D6C3A4DDBF"
@@ -294,8 +297,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.engineers_tools}"
-			x: 6.0d
-			y: 4.5d
+			x: 6.5d
+			y: 6.0d
 			id: "4170701E508D58B5"
 			tasks: [
 				{
@@ -328,8 +331,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: 5.5d
+			x: 6.5d
+			y: 7.5d
 			hide_dependency_lines: false
 			dependencies: ["4170701E508D58B5"]
 			id: "679D7B1E110BE18E"
@@ -341,8 +344,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: 6.5d
+			x: 6.5d
+			y: 9.0d
 			description: ["{gravitas.quest.steel.desc.blast_brick}"]
 			dependencies: ["679D7B1E110BE18E"]
 			id: "584E1EADFF9DB1FC"
@@ -415,6 +418,87 @@
 					item: "create:brass_funnel"
 				}
 			]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			description: ["{gravitas.quest.steel.desc.paper}"]
+			dependencies: [
+				"381A30977756A086"
+				"498E96A81E0E9DDF"
+			]
+			dependency_requirement: "one_completed"
+			id: "7EC4991C351C49AC"
+			tasks: [{
+				id: "3CA748F75183D5DD"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			description: [
+				"{gravitas.quest.steel.desc.papyrus.1}"
+				"{gravitas.quest.steel.desc.papyrus.2}"
+			]
+			dependencies: ["72A5FB46B1AF320B"]
+			id: "381A30977756A086"
+			tasks: [
+				{
+					id: "1F964A0F47706BD9"
+					type: "item"
+					item: "tfc:papyrus"
+				}
+				{
+					id: "14DFFF5FF5E234A9"
+					type: "item"
+					item: "tfc:papyrus_strip"
+				}
+				{
+					id: "58D21EA245B202F3"
+					type: "item"
+					item: "tfc:soaked_papyrus_strip"
+				}
+				{
+					id: "7962BDA878B5357F"
+					type: "item"
+					item: "tfc:unrefined_paper"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			description: ["{gravitas.quest.steel.desc.saw.1}"]
+			dependencies: ["72A5FB46B1AF320B"]
+			id: "498E96A81E0E9DDF"
+			tasks: [
+				{
+					id: "275C2FD18F4A0DE8"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "2235EB33A258C83A"
+					type: "item"
+					item: "thermal:sawdust"
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.steel.paper_making}"
+			x: 2.5d
+			y: 4.5d
+			description: [
+				"{gravitas.quest.steel.desc.paper_making.1}"
+				"{gravitas.quest.steel.desc.paper_making.2}"
+			]
+			id: "72A5FB46B1AF320B"
+			tasks: [{
+				id: "29775B79006C102C"
+				type: "checkmark"
+			}]
 		}
 	]
 	quest_links: [ ]
