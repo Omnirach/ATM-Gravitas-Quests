@@ -221,7 +221,7 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: -1.5d
 			y: 7.5d
 			dependencies: ["2F917443D6FE3081"]
 			id: "7503CFC31F970927"
@@ -232,7 +232,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: -1.5d
 			y: 9.0d
 			dependencies: ["7503CFC31F970927"]
 			id: "5DD8A4A919AF644C"
@@ -285,8 +285,9 @@
 			]
 		}
 		{
-			x: 5.0d
+			x: -1.5d
 			y: 6.0d
+			dependencies: ["679D7B1E110BE18E"]
 			id: "2F917443D6FE3081"
 			tasks: [{
 				id: "417E47D6C3A4DDBF"
@@ -297,8 +298,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.engineers_tools}"
-			x: 6.5d
-			y: 6.0d
+			x: 0.0d
+			y: 4.5d
 			id: "4170701E508D58B5"
 			tasks: [
 				{
@@ -331,8 +332,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 7.5d
+			x: 0.0d
+			y: 6.0d
 			hide_dependency_lines: false
 			dependencies: ["4170701E508D58B5"]
 			id: "679D7B1E110BE18E"
@@ -344,8 +345,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 9.0d
+			x: 0.0d
+			y: 7.5d
 			description: ["{gravitas.quest.steel.desc.blast_brick}"]
 			dependencies: ["679D7B1E110BE18E"]
 			id: "584E1EADFF9DB1FC"
@@ -498,6 +499,122 @@
 			tasks: [{
 				id: "29775B79006C102C"
 				type: "checkmark"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "376F1F47067E2622"
+			tasks: [{
+				id: "67986CF20EE499BB"
+				type: "observation"
+				title: "{gravitas.quests.steel.metal_press}"
+				icon: "immersiveengineering:metal_press"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:metal_press"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "5A248CD0C63BC119"
+			tasks: [{
+				id: "2F4F2ED865610043"
+				type: "observation"
+				title: "{gravitas.quests.steel.crusher}"
+				icon: "immersiveengineering:crusher"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:crusher"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "0FE5ADCC2CA2EFEC"
+			tasks: [{
+				id: "5E956B7FA14C1891"
+				type: "observation"
+				title: "{gravitas.quests.steel.sawmill}"
+				icon: "immersiveengineering:sawmill"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:sawmill"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "6B15223880624B0B"
+			tasks: [{
+				id: "1DCA8B804EADB662"
+				type: "observation"
+				title: "{gravitas.quests.steel.squeezer}"
+				icon: "immersiveengineering:squeezer"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:squeezer"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.0d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "04927E70A3D89ADD"
+			tasks: [{
+				id: "6BBEC58C850E2FB4"
+				type: "observation"
+				title: "{gravitas.quests.steel.fermenter}"
+				icon: "immersiveengineering:fermenter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:fermenter"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 9.0d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "64F55A708F5DCF13"
+			tasks: [{
+				id: "1B2A58B6691A5918"
+				type: "observation"
+				title: "{gravitas.quests.steel.refinery}"
+				icon: "immersiveengineering:refinery"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:refinery"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			dependencies: ["3047ACD6E16944B8"]
+			id: "14762EB8E1F28014"
+			tasks: [{
+				id: "11D0A2B392623A27"
+				type: "observation"
+				title: "{gravitas.quests.steel.arc_furnace}"
+				icon: "immersiveengineering:arc_furnace"
+				timer: 0L
+				observe_type: 0
+				to_observe: "immersiveengineering:arc_furnace"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["7EC4991C351C49AC"]
+			id: "3047ACD6E16944B8"
+			tasks: [{
+				id: "00C98DFD8CA09EC1"
+				type: "item"
+				item: "immersiveengineering:manual"
 			}]
 		}
 	]

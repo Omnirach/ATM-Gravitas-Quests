@@ -514,6 +514,7 @@
 			tasks: [{
 				id: "33C36ACF058CD1AE"
 				type: "observation"
+				title: "{gravitas.quest.caveman.rock_anvil}"
 				icon: "tfc:rock/anvil/diorite"
 				timer: 1L
 				observe_type: 1
@@ -852,6 +853,17 @@
 					}
 				}
 				count: 4L
+			}]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			description: ["{gravitas.quest.caveman.desc.waystone}"]
+			id: "61D2B2C65CD18F80"
+			tasks: [{
+				id: "314D9E700211415E"
+				type: "item"
+				item: "waystones:waystone"
 			}]
 		}
 	]

@@ -311,7 +311,10 @@
 		{
 			x: -2.5d
 			y: -6.0d
-			description: ["{gravitas.quest.bronze.desc.water_wheel}"]
+			description: [
+				"{gravitas.quest.bronze.desc.water_wheel.1}"
+				"{gravitas.quest.bronze.desc.water_wheel.2}"
+			]
 			dependencies: ["614F7BF7488AC58C"]
 			id: "2BBC6EE8A226EDA9"
 			tasks: [{

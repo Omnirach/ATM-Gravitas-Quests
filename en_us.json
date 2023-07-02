@@ -74,10 +74,19 @@
     "gravitas.quest.steel.kelp": "Kelp me out",
     "gravitas.quest.steel.funnel": "A better funnel",
     "gravitas.quest.steel.paper_making": "Paper making",
+    "gravitas.quests.steel.metal_press": "Metal Press",
+    "gravitas.quests.steel.crusher": "Crusher",
+    "gravitas.quests.steel.arc_furnace": "Arc Furnace",
+    "gravitas.quests.steel.sawmill": "Sawmill",
+    "gravitas.quests.steel.squeezer": "Squeezer? I barely know 'er!",
+    "gravitas.quests.steel.fermenter": "Fermenter",
+    "gravitas.quests.steel.refinery": "Refinery",
 
 
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",
 
+
+    "gravitas.quest.moon.t1_rocket": "Bang, Zoom, Straight to the Moon!", 
 
 
     "gravitas.quest.caveman.desc.start_somewhere": "Now armed with tools, the first thing you can do is go and collect logs from trees.",
@@ -112,6 +121,7 @@
     "gravitas.quest.caveman.desc.honey": "This can be acquired by right clicking a beehive with a empty jar.",
     "gravitas.quest.caveman.desc.treated_lumber.1": "Treated Lumber can be used to make early create items and some Firmalife items.",
     "gravitas.quest.caveman.desc.treated_lumber.2": "Treated wood can also be used for these recipes, but treated Lumber cannot be used in Immersive Engineering recipes.",
+    "gravitas.quest.caveman.desc.waystone": "You're going to be doing a lot of travelling in this modpack. Keep your eye out for Waystones, they'll help you quickly travel from one point to another.",
 
 
     "gravitas.quest.copper.desc.flux.1": "You can get flux by crushing certain loose stones in your crafting grid with a hammer.",
@@ -137,7 +147,8 @@
     "gravitas.quest.bronze.desc.fire_brick": "Fire bricks can be made by knapping, just like molds and rocks.",
     "gravitas.quest.bronze.desc.crucible.1": "The crucible will allow for easier alloy creation.",
     "gravitas.quest.bronze.desc.crucible.2": "The crucible must be placed below a blast furnace or above a charcoal furnace.",
-    "gravitas.quest.bronze.desc.water_wheel": "The water wheel is one of the more simple ways of producing the energy needed to spin the cogs and machines.",
+    "gravitas.quest.bronze.desc.water_wheel.1": "The water wheel is one of the more simple ways of producing the energy needed to spin the cogs and machines.",
+    "gravitas.quest.bronze.desc.water_wheel.2": "&5Hmm. I wonder if the water wheel works with liquids that aren't water.",
     "gravitas.quest.bronze.desc.cogwheel": "The most basic item in Create. This allows you to move kinetic energy between create blocks.",
     "gravitas.quest.bronze.desc.drawers.1": "Drawers are a great way to store large quantities of a single item, or upto 4 different items, in a single block space.",
     "gravitas.quest.bronze.desc.drawers.2": "A good use of the 2x2 drawers is storing your metal ores. Small, Poor, Normal, and Rich ore, all in one block.",
