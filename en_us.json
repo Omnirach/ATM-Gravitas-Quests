@@ -50,6 +50,7 @@
     "gravitas.quest.caveman.prepared_hide": "Any #tfc:prepared_hides",
     "gravitas.quest.caveman.leather": "The Premium Material",
     "gravitas.quest.caveman.any_leather": "Any Leather",
+    "gravitas.quest.caveman.copper_saw": "Copper Saw",
 
 
     "gravitas.quest.copper.charcoal_forge": "Charcoal Forge",
@@ -58,6 +59,7 @@
     "gravitas.quest.bronze.bronze_anvil": "Bronze Anvil",
     "gravitas.quest.bronze.crucible": "Mixing It Up",
     "gravitas.quest.bronze.zinc_alloy": "Let's get CREATEive",
+    "gravitas.quest.bronze.copper_chisel": "Copper Chisel",
 
 
     "gravitas.quest.iron.brick": "Any Brick",
@@ -74,13 +76,15 @@
     "gravitas.quest.steel.kelp": "Kelp me out",
     "gravitas.quest.steel.funnel": "A better funnel",
     "gravitas.quest.steel.paper_making": "Paper making",
-    "gravitas.quests.steel.metal_press": "Metal Press",
-    "gravitas.quests.steel.crusher": "Crusher",
-    "gravitas.quests.steel.arc_furnace": "Arc Furnace",
-    "gravitas.quests.steel.sawmill": "Sawmill",
-    "gravitas.quests.steel.squeezer": "Squeezer? I barely know 'er!",
-    "gravitas.quests.steel.fermenter": "Fermenter",
-    "gravitas.quests.steel.refinery": "Refinery",
+    "gravitas.quest.steel.metal_press": "Metal Press",
+    "gravitas.quest.steel.crusher": "Crusher",
+    "gravitas.quest.steel.arc_furnace": "Arc Furnace",
+    "gravitas.quest.steel.sawmill": "Sawmill",
+    "gravitas.quest.steel.squeezer": "Squeezer? I barely know 'er!",
+    "gravitas.quest.steel.fermenter": "Fermenter",
+    "gravitas.quest.steel.refinery": "Refinery",
+    "gravitas.quest.steel.excavator": "Excavator",
+    "gravitas.quest.steel.bucket_wheel": "Bucket Wheel",
 
 
     "gravitas.quest.blacksteel.going_deeper": "Going Deeper",

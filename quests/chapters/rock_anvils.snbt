@@ -127,7 +127,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.raw_hide}"
-			x: 7.0d
+			x: 7.5d
 			y: -4.0d
 			description: [
 				"{gravitas.quest.caveman.desc.raw_hide.1}"
@@ -149,7 +149,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.soak}"
-			x: 8.0d
+			x: 8.5d
 			y: -4.0d
 			subtitle: "{gravitas.quest.caveman.limewater_hide}"
 			description: ["{gravitas.quest.caveman.desc.soak}"]
@@ -173,7 +173,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.squeegee}"
-			x: 9.0d
+			x: 9.5d
 			y: -4.0d
 			description: ["{gravitas.quest.caveman.desc.squeegee}"]
 			dependencies: ["17F16D7C369DD0F4"]
@@ -193,7 +193,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.soak_2}"
-			x: 10.0d
+			x: 10.5d
 			y: -4.0d
 			description: ["{gravitas.quest.caveman.desc.soak_2}"]
 			dependencies: ["3506851642FE561A"]
@@ -213,7 +213,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.leather}"
-			x: 11.0d
+			x: 11.5d
 			y: -4.0d
 			description: [
 				"{gravitas.quest.caveman.desc.leather.1}"
@@ -491,7 +491,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.straw}"
-			x: 12.0d
+			x: 11.5d
 			y: 2.5d
 			id: "78709C7DFCCC40CB"
 			tasks: [{
@@ -531,7 +531,7 @@
 			tasks: [{
 				id: "13BC7D6A62F1E4FA"
 				type: "item"
-				title: "Any #tfc:saws"
+				title: "{gravitas.quest.caveman.copper_saw}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -837,7 +837,7 @@
 		}
 		{
 			title: "{gravitas.quest.caveman.big_barrel}"
-			x: 8.0d
+			x: 8.5d
 			y: -2.5d
 			description: ["{gravitas.quest.caveman.desc.big_barrel}"]
 			id: "0DD3F3EDB709A4E6"
@@ -864,6 +864,90 @@
 				id: "314D9E700211415E"
 				type: "item"
 				item: "waystones:waystone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			dependencies: ["16BB7334ACB35025"]
+			id: "154A9384B22C1FC2"
+			tasks: [{
+				id: "44946F4DFE65105E"
+				type: "item"
+				title: "Any #tfc:looms"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:looms"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			id: "3BD7DB417DDE94D0"
+			tasks: [
+				{
+					id: "5863B1581F033BED"
+					type: "item"
+					item: {
+						id: "tfc:spindle"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "54E51672B9908691"
+					type: "item"
+					item: "tfc:ceramic/spindle_head"
+				}
+				{
+					id: "43CA0F502CF752E4"
+					type: "item"
+					item: {
+						id: "tfc:ceramic/unfired_spindle_head"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			dependencies: ["3BD7DB417DDE94D0"]
+			id: "16BB7334ACB35025"
+			tasks: [
+				{
+					id: "4105116D1A10B5BA"
+					type: "item"
+					item: "tfc:wool"
+				}
+				{
+					id: "047946C7AA04FB94"
+					type: "item"
+					item: "tfc:wool_yarn"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			dependencies: ["154A9384B22C1FC2"]
+			id: "628F17390BE87E57"
+			tasks: [{
+				id: "5281A36E02DE893B"
+				type: "item"
+				item: "tfc:wool_cloth"
 			}]
 		}
 	]

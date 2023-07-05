@@ -226,7 +226,7 @@
 			tasks: [{
 				id: "351CCA1E4B8410C2"
 				type: "item"
-				title: "Any #tfc:chisels"
+				title: "{gravitas.quest.bronze.copper_chisel}"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

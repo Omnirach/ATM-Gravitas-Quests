@@ -509,7 +509,7 @@
 			tasks: [{
 				id: "67986CF20EE499BB"
 				type: "observation"
-				title: "{gravitas.quests.steel.metal_press}"
+				title: "{gravitas.quest.steel.metal_press}"
 				icon: "immersiveengineering:metal_press"
 				timer: 0L
 				observe_type: 0
@@ -524,7 +524,7 @@
 			tasks: [{
 				id: "2F4F2ED865610043"
 				type: "observation"
-				title: "{gravitas.quests.steel.crusher}"
+				title: "{gravitas.quest.steel.crusher}"
 				icon: "immersiveengineering:crusher"
 				timer: 0L
 				observe_type: 0
@@ -539,7 +539,7 @@
 			tasks: [{
 				id: "5E956B7FA14C1891"
 				type: "observation"
-				title: "{gravitas.quests.steel.sawmill}"
+				title: "{gravitas.quest.steel.sawmill}"
 				icon: "immersiveengineering:sawmill"
 				timer: 0L
 				observe_type: 0
@@ -554,7 +554,7 @@
 			tasks: [{
 				id: "1DCA8B804EADB662"
 				type: "observation"
-				title: "{gravitas.quests.steel.squeezer}"
+				title: "{gravitas.quest.steel.squeezer}"
 				icon: "immersiveengineering:squeezer"
 				timer: 0L
 				observe_type: 0
@@ -569,7 +569,7 @@
 			tasks: [{
 				id: "6BBEC58C850E2FB4"
 				type: "observation"
-				title: "{gravitas.quests.steel.fermenter}"
+				title: "{gravitas.quest.steel.fermenter}"
 				icon: "immersiveengineering:fermenter"
 				timer: 0L
 				observe_type: 0
@@ -584,7 +584,7 @@
 			tasks: [{
 				id: "1B2A58B6691A5918"
 				type: "observation"
-				title: "{gravitas.quests.steel.refinery}"
+				title: "{gravitas.quest.steel.refinery}"
 				icon: "immersiveengineering:refinery"
 				timer: 0L
 				observe_type: 0
@@ -599,7 +599,7 @@
 			tasks: [{
 				id: "11D0A2B392623A27"
 				type: "observation"
-				title: "{gravitas.quests.steel.arc_furnace}"
+				title: "{gravitas.quest.steel.arc_furnace}"
 				icon: "immersiveengineering:arc_furnace"
 				timer: 0L
 				observe_type: 0
@@ -616,6 +616,63 @@
 				type: "item"
 				item: "immersiveengineering:manual"
 			}]
+		}
+		{
+			x: 4.5d
+			y: 10.5d
+			dependencies: ["5D2DB3C9AE40FC3D"]
+			id: "5FE587C58E99982B"
+			tasks: [{
+				id: "25EDECCD6EFBDE82"
+				type: "item"
+				item: "immersiveengineering:sample_drill"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"628F17390BE87E57"
+				"7EC4991C351C49AC"
+			]
+			id: "5D2DB3C9AE40FC3D"
+			tasks: [{
+				id: "67E88D66AFA01992"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.5d
+			id: "1BCD9BCCCAF95A9E"
+			tasks: [
+				{
+					id: "498CA4C1386AA5B5"
+					type: "observation"
+					title: "{gravitas.quest.steel.excavator}"
+					icon: "immersiveengineering:excavator"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:excavator"
+				}
+				{
+					id: "3DEB7DEA3E0AC48E"
+					type: "observation"
+					title: "{gravitas.quest.steel.bucket_wheel}"
+					icon: "immersiveengineering:bucket_wheel"
+					timer: 0L
+					observe_type: 0
+					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
 		}
 	]
 	quest_links: [ ]
