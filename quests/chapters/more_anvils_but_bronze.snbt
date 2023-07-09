@@ -20,7 +20,6 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			dependencies: ["1BD449BE6B5C6E93"]
 			id: "6C3A96EFF44E71A2"
 			tasks: [{
 				id: "6A50771BCD0FD92E"
@@ -40,7 +39,6 @@
 		{
 			x: -0.5d
 			y: -0.5d
-			dependencies: ["1BD449BE6B5C6E93"]
 			id: "3614C0B7A94C1802"
 			tasks: [{
 				id: "04673507DAAD9EEB"
@@ -64,7 +62,6 @@
 				"{gravitas.quest.bronze.desc.bronze.1}"
 				"{gravitas.quest.bronze.desc.bronze.2}"
 			]
-			dependencies: ["1BD449BE6B5C6E93"]
 			id: "1FEBDF457699F158"
 			tasks: [{
 				id: "499CA79F29EA116E"
@@ -439,7 +436,7 @@
 				"{gravitas.quest.bronze.desc.climate_station.1}"
 				"{gravitas.quest.bronze.desc.climate_station.2}"
 			]
-			dependencies: ["1BD449BE6B5C6E93"]
+			dependencies: ["29642302C9284C5F"]
 			id: "68D5D7CE0B94C359"
 			tasks: [{
 				id: "14710F8E5986575C"
@@ -598,6 +595,25 @@
 					Count: 1b
 					tag: {
 						value: "firmalife:hangers"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "29642302C9284C5F"
+			tasks: [{
+				id: "06E5A44C4F70B541"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/brass"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
 					}
 				}
 			}]

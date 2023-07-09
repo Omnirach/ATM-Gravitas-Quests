@@ -308,8 +308,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 7.0d
+			x: 6.5d
+			y: 5.0d
 			description: ["{gravitas.quest.blacksteel.desc.going_deeper}"]
 			dependencies: ["7B044C2424F0CF68"]
 			dependency_requirement: "all_started"
