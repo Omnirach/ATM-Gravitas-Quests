@@ -4,6 +4,16 @@
 	order_index: 3
 	filename: "you_like_anvils_say_no_more_iron_anvil"
 	title: "{gravitas.chapters.4.title}"
+	icon: {
+		id: "tfc:metal/anvil/wrought_iron"
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

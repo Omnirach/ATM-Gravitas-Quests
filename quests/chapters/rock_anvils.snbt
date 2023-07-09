@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "rock_anvils"
 	title: "{gravitas.chapters.1.title}"
+	icon: "tfc:rock/anvil/basalt"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -948,6 +949,26 @@
 				id: "5281A36E02DE893B"
 				type: "item"
 				item: "tfc:wool_cloth"
+			}]
+		}
+		{
+			title: "{gravitas.quest.caveman.small_ship}"
+			x: 2.5d
+			y: -4.0d
+			description: ["{gravitas.quest.caveman.desc.small_ship}"]
+			dependencies: ["628F17390BE87E57"]
+			id: "1CB1E914C394C297"
+			tasks: [{
+				id: "529B9E366ECAAB88"
+				type: "item"
+				title: "Any #smallships:cogs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
 			}]
 		}
 	]

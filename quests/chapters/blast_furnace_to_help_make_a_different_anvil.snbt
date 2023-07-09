@@ -4,6 +4,16 @@
 	order_index: 4
 	filename: "blast_furnace_to_help_make_a_different_anvil"
 	title: "{gravitas.chapters.5.title}"
+	icon: {
+		id: "tfc:metal/anvil/steel"
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -502,7 +512,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: 6.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "376F1F47067E2622"
@@ -517,7 +527,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: 6.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "5A248CD0C63BC119"
@@ -532,7 +542,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: 7.5d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "0FE5ADCC2CA2EFEC"
@@ -547,7 +557,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: 7.5d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "6B15223880624B0B"
@@ -562,7 +572,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: 9.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "04927E70A3D89ADD"
@@ -577,7 +587,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 7.5d
 			y: 9.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "64F55A708F5DCF13"
@@ -592,7 +602,7 @@
 			}]
 		}
 		{
-			x: 9.5d
+			x: 9.0d
 			y: 6.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "14762EB8E1F28014"
@@ -650,8 +660,12 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 6.0d
 			y: 10.5d
+			dependencies: [
+				"3047ACD6E16944B8"
+				"5D2DB3C9AE40FC3D"
+			]
 			id: "1BCD9BCCCAF95A9E"
 			tasks: [
 				{

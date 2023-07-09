@@ -4,6 +4,11 @@
 	order_index: 6
 	filename: "the_moon_has_anvils"
 	title: "{gravitas.chapters.7.title}"
+	icon: {
+		id: "beyond_earth:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -4,6 +4,16 @@
 	order_index: 2
 	filename: "more_anvils_but_bronze"
 	title: "{gravitas.chapters.3.title}"
+	icon: {
+		id: "tfc:metal/anvil/bronze"
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -219,8 +229,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: -1.5d
+			x: -6.5d
+			y: 0.0d
 			description: ["{gravitas.quest.bronze.desc.smooth_stone}"]
 			id: "42663B306993A03C"
 			tasks: [{
@@ -297,8 +307,8 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -4.5d
+			x: -3.5d
+			y: -3.0d
 			description: ["{gravitas.quest.bronze.desc.cogwheel}"]
 			dependencies: ["6E9205F502E6184F"]
 			id: "614F7BF7488AC58C"
@@ -309,8 +319,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -6.0d
+			x: -5.0d
+			y: -3.0d
 			description: [
 				"{gravitas.quest.bronze.desc.water_wheel.1}"
 				"{gravitas.quest.bronze.desc.water_wheel.2}"
@@ -326,7 +336,7 @@
 		{
 			title: "{gravitas.quest.bronze.zinc_alloy}"
 			icon: "create:andesite_alloy"
-			x: -3.5d
+			x: -2.0d
 			y: -1.5d
 			description: ["{gravitas.quest.bronze.desc.zinc_alloy}"]
 			id: "35CBA8F8B07B6F2A"
@@ -365,7 +375,7 @@
 			]
 		}
 		{
-			x: -2.5d
+			x: -2.0d
 			y: -3.0d
 			description: [
 				"{gravitas.quest.bronze.desc.shaft.1}"
@@ -380,12 +390,13 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -4.5d
+			x: -5.0d
+			y: -1.5d
 			description: ["{gravitas.quest.bronze.desc.millstone}"]
 			dependencies: [
 				"614F7BF7488AC58C"
 				"7837C5366C24D4CF"
+				"0B677B51F3B4F986"
 			]
 			id: "18C96EFC0C20924F"
 			tasks: [{
@@ -395,8 +406,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			x: -3.5d
+			y: -1.5d
 			description: ["{gravitas.quest.bronze.desc.casing}"]
 			dependencies: ["35CBA8F8B07B6F2A"]
 			id: "7837C5366C24D4CF"
@@ -419,6 +430,176 @@
 				id: "7C322EC71BD4E8A4"
 				type: "item"
 				item: "framedcompactdrawers:framed_full_four"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: [
+				"{gravitas.quest.bronze.desc.climate_station.1}"
+				"{gravitas.quest.bronze.desc.climate_station.2}"
+			]
+			dependencies: ["1BD449BE6B5C6E93"]
+			id: "68D5D7CE0B94C359"
+			tasks: [{
+				id: "14710F8E5986575C"
+				type: "item"
+				item: "firmalife:climate_station"
+			}]
+		}
+		{
+			title: "{gravitas.quest.bronze.greenhouse}"
+			x: 2.5d
+			y: 3.5d
+			description: [
+				"{gravitas.quest.bronze.desc.greenhouse.1}"
+				"{gravitas.quest.bronze.desc.greenhouse.2}"
+				"{gravitas.quest.bronze.desc.greenhouse.3}"
+			]
+			dependencies: ["68D5D7CE0B94C359"]
+			id: "01AEE4D1B74F76FD"
+			tasks: [{
+				id: "1CCED41128C1B854"
+				type: "item"
+				title: "Any #firmalife:greenhouse"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "firmalife:greenhouse"
+					}
+				}
+			}]
+		}
+		{
+			title: "{gravitas.quest.bronze.cellar}"
+			x: -0.5d
+			y: 3.5d
+			description: [
+				"{gravitas.quest.bronze.desc.cellar.1}"
+				"{gravitas.quest.bronze.desc.cellar.2}"
+			]
+			dependencies: ["68D5D7CE0B94C359"]
+			id: "65132F6F493EBE0E"
+			tasks: [
+				{
+					id: "5F547F61446D81DE"
+					type: "item"
+					item: "firmalife:sealed_door"
+				}
+				{
+					id: "61C56DF51F598C78"
+					type: "item"
+					item: "firmalife:sealed_bricks"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: ["{gravitas.quest.bronze.desc.large}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "4A1256625CB03450"
+			tasks: [{
+				id: "127EE3DB9D05B046"
+				type: "item"
+				item: "firmalife:large_planter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			description: ["{gravitas.quest.bronze.desc.quad}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "76E9E4DA7E6BF9B2"
+			tasks: [{
+				id: "73022A7F7ED539A6"
+				type: "item"
+				item: "firmalife:quad_planter"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["{gravitas.quest.bronze.desc.hydro}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "52B0681ECF09FF20"
+			tasks: [{
+				id: "6468A20E66C2356A"
+				type: "item"
+				item: "firmalife:hydroponic_planter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			description: ["{gravitas.quest.bronze.desc.bonsai}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "7CBA72F03604CB46"
+			tasks: [{
+				id: "2F60F8F5C9DB1658"
+				type: "item"
+				item: "firmalife:bonsai_planter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["{gravitas.quest.bronze.desc.hanging}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "4CDEA957976BB720"
+			tasks: [{
+				id: "5D03423486407493"
+				type: "item"
+				item: "firmalife:hanging_planter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			description: ["{gravitas.quest.bronze.desc.trellis}"]
+			dependencies: ["01AEE4D1B74F76FD"]
+			id: "278885E9030C84F5"
+			tasks: [{
+				id: "79FA99394ACC468F"
+				type: "item"
+				item: "firmalife:trellis_planter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["65132F6F493EBE0E"]
+			id: "4C109ADBAAFCE46A"
+			tasks: [{
+				id: "724A94E2CD34762E"
+				type: "item"
+				title: "Any #firmalife:food_shelves"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "firmalife:food_shelves"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			dependencies: ["65132F6F493EBE0E"]
+			id: "48D9D40602FFF643"
+			tasks: [{
+				id: "63BBBFE06DEB5973"
+				type: "item"
+				title: "Any #firmalife:hangers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "firmalife:hangers"
+					}
+				}
 			}]
 		}
 	]

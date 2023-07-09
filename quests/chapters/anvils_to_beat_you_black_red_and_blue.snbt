@@ -4,6 +4,16 @@
 	order_index: 5
 	filename: "anvils_to_beat_you_black_red_and_blue"
 	title: "{gravitas.chapters.6.title}"
+	icon: {
+		id: "tfc:metal/anvil/red_steel"
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

@@ -51,6 +51,7 @@
     "gravitas.quest.caveman.leather": "The Premium Material",
     "gravitas.quest.caveman.any_leather": "Any Leather",
     "gravitas.quest.caveman.copper_saw": "Copper Saw",
+    "gravitas.quest.caveman.small_ship": "Small Cog",
 
 
     "gravitas.quest.copper.charcoal_forge": "Charcoal Forge",
@@ -60,6 +61,8 @@
     "gravitas.quest.bronze.crucible": "Mixing It Up",
     "gravitas.quest.bronze.zinc_alloy": "Let's get CREATEive",
     "gravitas.quest.bronze.copper_chisel": "Copper Chisel",
+    "gravitas.quest.bronze.greenhouse": "Greenhouse",
+    "gravitas.quest.bronze.cellar": "Cellar",
 
 
     "gravitas.quest.iron.brick": "Any Brick",
@@ -126,6 +129,7 @@
     "gravitas.quest.caveman.desc.treated_lumber.1": "Treated Lumber can be used to make early create items and some Firmalife items.",
     "gravitas.quest.caveman.desc.treated_lumber.2": "Treated wood can also be used for these recipes, but treated Lumber cannot be used in Immersive Engineering recipes.",
     "gravitas.quest.caveman.desc.waystone": "You're going to be doing a lot of travelling in this modpack. Keep your eye out for Waystones, they'll help you quickly travel from one point to another.",
+    "gravitas.quest.caveman.desc.small_ship": "Once you have some wool cloth, you can make a small ship, which is quite good for travelling the rivers. They don't get moved around by currents.",
 
 
     "gravitas.quest.copper.desc.flux.1": "You can get flux by crushing certain loose stones in your crafting grid with a hammer.",
@@ -161,7 +165,19 @@
     "gravitas.quest.bronze.desc.shaft.2": "To make a Shaft (Can you dig it?) just place two Igneous Zinc Alloy in a line in a crafting grid, and bam, you have a Shaft (Right on).",
     "gravitas.quest.bronze.desc.casing": "You'll need a lot of casings for all the Create machines you need to make. Slap a log on the ground and right click it with an Igneous Zinc Alloy and it'll turn that log into a casing.",
     "gravitas.quest.bronze.desc.millstone": "A Millstone is like a quern, except you can power it using Create rotational energy, and you have a chance at getting extra items from grinding items down.",
-
+    "gravitas.quest.bronze.desc.greenhouse.1": "You can grow almost any crop, fruit tree or bush in a greenhouse. They come in multiple flavours, from Treated Wood to Stainless Steel.",
+    "gravitas.quest.bronze.desc.greenhouse.2": "To make a greenhouse, you need to build the walls, roof, and door out of greenhouse blocks, place a climate station on the floor touching a wall block and then right click it. It should tell you if it is a valid greenhouse.",
+    "gravitas.quest.bronze.desc.greenhouse.3": "&6Note: Not all greenhouses are equal, you need a higher tier greenhouse to grow different crops.",
+    "gravitas.quest.bronze.desc.climate_station.1": "Now that you can work ingots on an anvil, it might be a good idea to make some brass, to make some brass mechanisms, to make a couple of Climate Stations.",
+    "gravitas.quest.bronze.desc.climate_station.2": "Climate stations are needed for Greenhouses and Cellars.",
+    "gravitas.quest.bronze.desc.quad": "This planter can grow crops in any Greenhouse.",
+    "gravitas.quest.bronze.desc.hanging": "This planter can grow crops in any Greenhouse.",
+    "gravitas.quest.bronze.desc.large": "This planter can grow crops in any Copper and above Greenhouse.",
+    "gravitas.quest.bronze.desc.hydro": "This planter can grow crops in any Copper and above Greenhouse.",
+    "gravitas.quest.bronze.desc.bonsai": "This planter can grow crops in any Iron and above Greenhouse.",
+    "gravitas.quest.bronze.desc.trellis": "This planter can grow crops in any Iron and above Greenhouse.",
+    "gravitas.quest.bronze.desc.cellar.1": "The cellar is used to preserve food, and to age cheese.",
+    "gravitas.quest.bronze.desc.cellar.2": "To make a cellar, you need to make a room out of Sealed bricks, with either a Sealed door or Sealed trapdoor, then place a Climate station on the floor. Right click the Climate Station and if the room is valid, then voila, cellar!",
 
 
     "gravitas.quest.iron.desc.mortar.1": "You get mortar by putting sand in a barrel full of limewater.",
