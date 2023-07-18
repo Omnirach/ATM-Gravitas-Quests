@@ -18,8 +18,8 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 2.0d
-			y: 0.0d
+			x: -0.5d
+			y: -5.0d
 			subtitle: "{gravitas.quest.steel.blast_furnace}"
 			description: [
 				"{gravitas.quest.steel.desc.blast_furnace.1}"
@@ -78,8 +78,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.steel}"
-			x: 2.0d
-			y: 1.5d
+			x: -0.5d
+			y: -3.5d
 			dependencies: ["7A77905EB8350098"]
 			id: "19C25C233BCCF44C"
 			tasks: [
@@ -128,8 +128,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 3.0d
+			x: -0.5d
+			y: -2.0d
 			description: ["{gravitas.quest.steel.desc.steel_anvil}"]
 			dependencies: ["19C25C233BCCF44C"]
 			id: "568F95FC508BA84A"
@@ -149,8 +149,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: 1.0d
+			y: -5.0d
 			description: ["{gravitas.quest.steel.desc.press}"]
 			dependencies: ["2227EA4328622F97"]
 			id: "6FD65AD7EC4053EA"
@@ -168,8 +168,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 1.5d
+			x: 2.5d
+			y: -3.5d
 			description: ["{gravitas.quest.steel.desc.rolling}"]
 			dependencies: ["3B5AC1088E738401"]
 			id: "62576168F3827DFB"
@@ -180,8 +180,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
+			x: 1.0d
+			y: -3.5d
 			dependencies: ["6FD65AD7EC4053EA"]
 			id: "3B5AC1088E738401"
 			tasks: [{
@@ -192,8 +192,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.automate_create}"
-			x: 5.0d
-			y: 0.0d
+			x: 2.5d
+			y: -5.0d
 			description: [
 				"{gravitas.quest.steel.desc.automate_create.1}"
 				"{gravitas.quest.steel.desc.automate_create.2}"
@@ -232,7 +232,7 @@
 		}
 		{
 			x: -2.0d
-			y: 7.5d
+			y: 2.5d
 			dependencies: ["2F917443D6FE3081"]
 			id: "7503CFC31F970927"
 			tasks: [{
@@ -243,7 +243,7 @@
 		}
 		{
 			x: -2.0d
-			y: 9.0d
+			y: 4.0d
 			dependencies: ["7503CFC31F970927"]
 			id: "5DD8A4A919AF644C"
 			tasks: [{
@@ -255,7 +255,7 @@
 		{
 			title: "{gravitas.quest.steel.blueprints}"
 			x: 1.0d
-			y: 7.5d
+			y: 2.5d
 			dependencies: ["7EC4991C351C49AC"]
 			id: "2D871E3A9A87DAC0"
 			tasks: [
@@ -296,7 +296,7 @@
 		}
 		{
 			x: -2.0d
-			y: 6.0d
+			y: 1.0d
 			dependencies: ["679D7B1E110BE18E"]
 			id: "2F917443D6FE3081"
 			tasks: [{
@@ -309,7 +309,7 @@
 		{
 			title: "{gravitas.quest.steel.engineers_tools}"
 			x: -0.5d
-			y: 4.5d
+			y: -0.5d
 			id: "4170701E508D58B5"
 			tasks: [
 				{
@@ -343,7 +343,7 @@
 		}
 		{
 			x: -0.5d
-			y: 6.0d
+			y: 1.0d
 			hide_dependency_lines: false
 			dependencies: ["4170701E508D58B5"]
 			id: "679D7B1E110BE18E"
@@ -356,7 +356,7 @@
 		}
 		{
 			x: -0.5d
-			y: 7.5d
+			y: 2.5d
 			description: ["{gravitas.quest.steel.desc.blast_brick}"]
 			dependencies: ["679D7B1E110BE18E"]
 			id: "584E1EADFF9DB1FC"
@@ -368,8 +368,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 3.0d
+			x: 1.0d
+			y: -2.0d
 			description: [
 				"{gravitas.quest.steel.desc.fan.1}"
 				"{gravitas.quest.steel.desc.fan.2}"
@@ -384,8 +384,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.kelp}"
-			x: 5.0d
-			y: -1.5d
+			x: 2.5d
+			y: -6.5d
 			description: ["{gravitas.quest.steel.desc.kelp}"]
 			id: "6DA0C8E1B5EAF7EE"
 			tasks: [{
@@ -403,8 +403,8 @@
 		}
 		{
 			title: "{gravitas.quest.steel.funnel}"
-			x: 6.5d
-			y: 0.0d
+			x: 4.0d
+			y: -5.0d
 			description: ["{gravitas.quest.steel.desc.funnel}"]
 			dependencies: ["3276777A888B958D"]
 			dependency_requirement: "one_started"
@@ -431,7 +431,7 @@
 		}
 		{
 			x: 2.5d
-			y: 7.5d
+			y: 2.5d
 			description: ["{gravitas.quest.steel.desc.paper}"]
 			dependencies: [
 				"381A30977756A086"
@@ -447,7 +447,7 @@
 		}
 		{
 			x: 2.0d
-			y: 6.0d
+			y: 1.0d
 			description: [
 				"{gravitas.quest.steel.desc.papyrus.1}"
 				"{gravitas.quest.steel.desc.papyrus.2}"
@@ -479,7 +479,7 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
+			y: 1.0d
 			description: ["{gravitas.quest.steel.desc.saw.1}"]
 			dependencies: ["72A5FB46B1AF320B"]
 			id: "498E96A81E0E9DDF"
@@ -499,7 +499,7 @@
 		{
 			title: "{gravitas.quest.steel.paper_making}"
 			x: 2.5d
-			y: 4.5d
+			y: -0.5d
 			description: [
 				"{gravitas.quest.steel.desc.paper_making.1}"
 				"{gravitas.quest.steel.desc.paper_making.2}"
@@ -512,7 +512,7 @@
 		}
 		{
 			x: 4.5d
-			y: 6.0d
+			y: 1.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "376F1F47067E2622"
 			tasks: [{
@@ -527,7 +527,7 @@
 		}
 		{
 			x: 5.5d
-			y: 6.0d
+			y: 1.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "5A248CD0C63BC119"
 			tasks: [{
@@ -542,7 +542,7 @@
 		}
 		{
 			x: 6.5d
-			y: 7.0d
+			y: 2.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "0FE5ADCC2CA2EFEC"
 			tasks: [{
@@ -557,7 +557,7 @@
 		}
 		{
 			x: 6.5d
-			y: 8.0d
+			y: 3.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "6B15223880624B0B"
 			tasks: [{
@@ -572,7 +572,7 @@
 		}
 		{
 			x: 5.5d
-			y: 9.0d
+			y: 4.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "04927E70A3D89ADD"
 			tasks: [{
@@ -587,7 +587,7 @@
 		}
 		{
 			x: 6.5d
-			y: 9.0d
+			y: 4.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "64F55A708F5DCF13"
 			tasks: [{
@@ -602,7 +602,7 @@
 		}
 		{
 			x: 6.5d
-			y: 6.0d
+			y: 1.0d
 			dependencies: ["3047ACD6E16944B8"]
 			id: "14762EB8E1F28014"
 			tasks: [{
@@ -617,7 +617,7 @@
 		}
 		{
 			x: 4.5d
-			y: 7.5d
+			y: 2.5d
 			dependencies: ["7EC4991C351C49AC"]
 			id: "3047ACD6E16944B8"
 			tasks: [{
@@ -628,7 +628,7 @@
 		}
 		{
 			x: 3.0d
-			y: 10.5d
+			y: 5.5d
 			dependencies: ["5D2DB3C9AE40FC3D"]
 			id: "5FE587C58E99982B"
 			tasks: [{
@@ -639,7 +639,7 @@
 		}
 		{
 			x: 3.0d
-			y: 9.0d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"628F17390BE87E57"
@@ -660,7 +660,7 @@
 		}
 		{
 			x: 4.5d
-			y: 9.0d
+			y: 4.0d
 			dependencies: [
 				"3047ACD6E16944B8"
 				"5D2DB3C9AE40FC3D"
@@ -684,6 +684,40 @@
 					timer: 0L
 					observe_type: 0
 					to_observe: "immersiveengineering:bucket_wheel"
+				}
+			]
+		}
+		{
+			title: "{gravitas.quest.bronze.press}"
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["376F1F47067E2622"]
+			id: "0EBCB470229F3207"
+			tasks: [
+				{
+					id: "2D61A5074B0012B9"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "7769B4E4D238BBA3"
+					type: "item"
+					item: "immersiveengineering:mold_gear"
+				}
+				{
+					id: "14250626FF4F97DD"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+				{
+					id: "781C3DF1D3A2EC11"
+					type: "item"
+					item: "immersiveengineering:mold_bullet_casing"
+				}
+				{
+					id: "0C2512130FB226F7"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
 				}
 			]
 		}

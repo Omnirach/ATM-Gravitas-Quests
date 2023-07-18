@@ -881,6 +881,7 @@
 			}]
 		}
 		{
+			title: "{gravitas.quest.caveman.loom}"
 			x: 4.5d
 			y: -2.5d
 			dependencies: ["16BB7334ACB35025"]
@@ -982,6 +983,20 @@
 						value: "smallships:cogs"
 					}
 				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			description: [
+				"{gravitas.quest.caveman.desc.composter.1}"
+				"{gravitas.quest.caveman.desc.composter.2}"
+			]
+			id: "2AD5D0FD00A5C4FD"
+			tasks: [{
+				id: "0B81C8F0564E121A"
+				type: "item"
+				item: "tfc:composter"
 			}]
 		}
 	]

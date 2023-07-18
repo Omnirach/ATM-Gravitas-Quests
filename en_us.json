@@ -52,6 +52,7 @@
     "gravitas.quest.caveman.any_leather": "Any Leather",
     "gravitas.quest.caveman.copper_saw": "Copper Saw",
     "gravitas.quest.caveman.small_ship": "Small Cog",
+    "gravitas.quest.caveman.loom": "Loomatic",
 
 
     "gravitas.quest.copper.charcoal_forge": "Charcoal Forge",
@@ -63,6 +64,10 @@
     "gravitas.quest.bronze.copper_chisel": "Copper Chisel",
     "gravitas.quest.bronze.greenhouse": "Greenhouse",
     "gravitas.quest.bronze.cellar": "Cellar",
+    "gravitas.quest.bronze.food_shelf": "Food Shelves",
+    "gravitas.quest.bronze.hangers": "Hangers",
+    "gravitas.quest.bronze.channel": "Change the channel",
+    "gravitas.quest.bronze.press": "Press Molds",
 
 
     "gravitas.quest.iron.brick": "Any Brick",
@@ -130,6 +135,8 @@
     "gravitas.quest.caveman.desc.treated_lumber.2": "Treated wood can also be used for these recipes, but treated Lumber cannot be used in Immersive Engineering recipes.",
     "gravitas.quest.caveman.desc.waystone": "You're going to be doing a lot of travelling in this modpack. Keep your eye out for Waystones, they'll help you quickly travel from one point to another.",
     "gravitas.quest.caveman.desc.small_ship": "Once you have some wool cloth, you can make a small ship, which is quite good for travelling the rivers. They don't get moved around by currents.",
+    "gravitas.quest.caveman.desc.composter.1": "You can make compost in a composter. Compost is used to increase the nutrition of farmland, making crops grow faster and bigger. It's also needed for making planters for your Greenhouse.",
+    "gravitas.quest.caveman.desc.composter.2": "To make compost, you'll need to add green and brown products to your composter. Check the TFC field guide for tips on what to add! Alternatively, just try putting things in until you put in what you need. &6Don't add meat or bones though, that will kill your compost which will kill your crops.",
 
 
     "gravitas.quest.copper.desc.flux.1": "You can get flux by crushing certain loose stones in your crafting grid with a hammer.",
@@ -209,7 +216,7 @@
     "gravitas.quest.steel.desc.papyrus.2": "First, take one piece of papyrus and combine it with a knife. Next, you'll want to soak those strips in water for about 8 hours. Take those soaked papyrus strips and weave 'em on a loom. Lastly, like with Leather, put that unrefined paper on a log and scrape it to obtain your paper.",
     "gravitas.quest.steel.desc.saw.1": "You can use a saw to increase the output of your logs, and as a bonus you'll get sawdust which has a multitude of uses.",
     "gravitas.quest.steel.desc.saw.2": "If you combine 4 sawdust with a bucket of water, you'll get two paper. You can also make... not much else currently...",
-    "gravitas.quest.steel.desc.paper": "Now that you have paper, you can make things like books, and blueprints, and... uhh... sandpaper? Clipboards? Maps? There's lots you can do with paper.",
+    "gravitas.quest.steel.desc.paper": "Now that you have paper, you can make things like books, and blueprints, and... uhh... sandpaper? Clipboards? Maps? There's lots you can do with paper, I'm sure of it.",
 
 
     "gravitas.quest.blacksteel.desc.weak_blue": "Weak blue steel is made by alloying &3Bismuth Bronze, Black Steel, Sterling Silver, Steel.",
